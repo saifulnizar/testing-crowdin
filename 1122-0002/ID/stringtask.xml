@@ -1,0 +1,153 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="app_name">VPN zonder merknaam</string>
+    <string name="app_name_short">Lokasi</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Annuleren</string>
+    <string name="enable">Inschakelen</string>
+
+    <!-- Registration -->
+    <string name="fsso_start">Start</string>
+    <string name="fsso_info_start">Tik “Start” om met authentificatie via FSSO te beginnen.</string>
+    <string name="fsso_info_authenticating">Authenticatie…</string>
+
+    <!-- Sign in using test key -->
+    <string name="test_key_info_authenticating">Verificatie met testsleutel</string>
+    <string name="test_key_signed_out">Ditanda tangani:</string>
+    <string name="test_key_sign_in_with">Inloggen met testsleutel</string>
+    <string name="test_key_sign_in_start">Start</string>
+
+    <!-- Sign in using custom auth (short codes) -->
+    <string name="short_code_start">Start</string>
+    <string name="short_code_info_start">Tik “Start” om met authentificatie via korte code te beginnen.</string>
+    <string name="short_code_authenticating">Authenticatie…</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_initialising">Initialiseren…</string>
+    <string name="onboarding_error_title">Inloggen mislukt</string>
+    <string name="onboarding_error_message">Je kon niet inloggen.</string>
+
+    <!-- Sign Out -->
+    <string name="sign_out_error_dialog_title">Uitloggen mislukt</string>
+    <string name="sign_out_error_dialog_message">Je kon je niet uitschrijven. Probeer het later opnieuw.</string>
+    <string name="sign_out_lockdown_error_dialog_message">Can not sign out while \&quot;Block connections without VPN\&quot; is turned on in Android VPN settings. Schakel deze uit.</string>
+
+    <!-- Account Error -->
+    <string name="account_error_title">Er was een probleem met uw account</string>
+    <string name="account_error_message">Neem contact op met Ondersteuning en probeer het opnieuw.</string>
+    <string name="account_error_contact_support">Contact opnemen met ondersteuning</string>
+    <string name="account_error_sign_in">Masuk</string>
+    <string name="account_error_description">Accountfout</string>
+
+    <!-- No Entitlement -->
+    <string name="no_entitlement_title">Upgrade uw account om toegang te krijgen tot %1$s</string>
+    <string name="no_entitlement_message">Bezoek website.com voor meer informatie.</string>
+    <string name="no_entitlement_recheck_access">Toegang opnieuw controleren</string>
+    <string name="no_entitlement_sign_in">Log in met een andere account</string>
+    <string name="no_entitlement_contact_support">Contact opnemen met ondersteuning</string>
+    <string name="no_entitlement_no_access">Geen toegang gevonden</string>
+    <string name="no_entitlement_error">Fout bij controleren van toegang</string>
+    <string name="no_entitlement_description">Account bijwerken</string>
+
+    <!-- Home Menu -->
+    <string name="menu_settings">Instellingen</string>
+
+    <!-- Home -->
+    <string name="title_home">Rumah,</string>
+    <string name="title_acknowledgements">Kata Pengantar1</string>
+
+    <!-- Lock Screen -->
+    <string name="biometric_title_dialog">App openen</string>
+    <string name="biometric_title_negative_button">Wachtcode gebruiken</string>
+    <string name="biometric_error_title">Ontgrendelen met biometrie mislukt</string>
+    <string name="biometric_error_message_lockout">Voer uw wachtwoord in omdat u te veel pogingen hebt gedaan</string>
+    <string name="biometric_error_message_lockout_permanent">Voer uw wachtwoord in omdat u te veel pogingen hebt gedaan</string>
+    <string name="biometric_error_message_unknown">Er is een onbekende fout opgetreden. Voer uw wachtwoord in.</string>
+    <string name="passcode_lock_error_dialog_title">Verificatie mislukt</string>
+    <string name="passcode_lock_error_dialog_message">Probeer het over 1 minuut opnieuw.</string>
+    <string name="passcode_lock_error_dialog_positive_button">app sluiten</string>
+    <string name="passcode_lock_title">Voer uw wachtwoord in</string>
+    <string name="passcode_lock_error">Onjuiste wachtwoord. Probeer het opnieuw.</string>
+    <string name="passcode_lock_use_biometrics">Biometrische gegevens gebruiken</string>
+
+    <!-- Settings -->
+    <string name="title_settings">Instellingen</string>
+    <string name="settings_header_general">1.1UMUM</string>
+    <string name="settings_label_biometric">Biometrische ID inschakelen</string>
+    <string name="settings_label_passcode">Wachtcode inschakelen</string>
+    <string name="settings_header_privacy">Privacy</string>
+    <string name="settings_label_analytics">Gebruiksanalyse inschakelen</string>
+    <string name="settings_label_analytics_description"><![CDATA[Als deze optie is ingeschakeld, verzamelen we gebruiksanalyses om uw productervaring te verbeteren. Untuk privasi Anda, kami tidak membagikan analitik penggunaan apa pun dengan pihak ketiga dan tidak mengumpulkan informasi pengenal pribadi apa pun. Ga voor meer informatie naar het privacybeleid Privacybeleid]]></string>
+    <string name="settings_header_support">Ondersteuning</string>
+    <string name="settings_label_contact_support">Contact opnemen met ondersteuning</string>
+    <string name="settings_label_faq">FAQ</string>
+    <string name="settings_header_about">Over</string>
+    <string name="settings_label_tos">Servicevoorwaarden</string>
+    <string name="settings_label_privacy_policy">Privacybeleid</string>
+    <string name="settings_label_acknowledgements">Kata Pengantar1</string>
+    <string name="settings_label_version">Versie 1</string>
+    <string name="settings_button_sign_out">Ditanda tangani:</string>
+    <string name="settings_button_del_account">Account verwijderen</string>
+    <string name="settings_dialog_enable_biometric_title">Biometrische ID inschakelen</string>
+    <string name="settings_dialog_enable_biometric_message">Hiervoor moet u uw biometrische ID gebruiken bij het starten van de app of na 2 minuten inactiviteit.</string>
+    <string name="settings_dialog_enable_passcode_title">Wachtcode inschakelen</string>
+    <string name="settings_dialog_enable_passcode_message">Hiervoor moet u uw wachtwoord gebruiken bij het starten van de app of na 2 minuten inactiviteit.</string>
+    <string name="settings_dialog_sign_out_title">Ditanda tangani:</string>
+    <string name="settings_dialog_sign_out_message">Dit zal uw VPN losmaken. Doorgaan</string>
+    <string name="settings_sign_out_title">Uitloggen…</string>
+
+    <!-- Create Passcode -->
+    <string name="title_create_passcode">Wachtcode maken</string>
+    <string name="create_passcode_initial_title">Voer een 6-cijferige wachtcode in</string>
+    <string name="create_passcode_verify_title">Bevestig uw wachtwoord</string>
+    <string name="create_passcode_verify_error">De pascodes kwamen niet overeen. Probeer het opnieuw.</string>
+
+    <!-- Delete Passcode -->
+    <string name="title_delete_passcode">Voer uw wachtwoord in</string>
+    <string name="delete_passcode_title">Voer uw wachtwoord in</string>
+    <string name="delete_passcode_error">Onjuiste wachtwoord. Probeer het opnieuw.</string>
+    <string name="delete_passcode_too_many_attempts_dialog_title">Verificatie mislukt</string>
+    <string name="delete_passcode_too_many_attempts_dialog_message">Probeer het over 1 minuut opnieuw.</string>
+    <string name="delete_passcode_unknown_error_dialog_title">Verificatie mislukt</string>
+    <string name="delete_passcode_unknown_error_dialog_message">Er is een onbekende fout opgetreden. Probeer het later opnieuw.</string>
+
+    <!--  FAQ  -->
+    <string name="title_faq">FAQ</string>
+    <string name="faq_url">https://support.mysudo.com/hc/en-us</string>
+
+    <!-- In app delete account -->
+    <string name="title_del_acc">Account verwijderen</string>
+    <string name="del_account_url">https://support.mysudo.com/hc/en-us</string>
+
+    <!--  Terms of Service  -->
+    <string name="title_tos">Servicevoorwaarden</string>
+    <string name="tos_url">https://anonyome.com/terms-of-service/</string>
+
+    <!--  Privacy Policy  -->
+    <string name="title_privacy_policy">Privacybeleid</string>
+    <string name="privacy_policy_url">https://anonyome.com/privacy-policy/</string>
+
+    <!--  Contact Support  -->
+    <string name="contact_support_email_address">Tim Sudo&lt;support@sudoplatform.com></string>
+    <string name="contact_support_email_subject">Ondersteuning voor Android</string>
+    <string name="contact_support_email_body">         %n Beschrijving: %1$s %n %n %n App-versie: %2$s %nPakket: %3$s nApparaatmodel: %4$s %5$s %nOS: Android Versie van %nOS: %6$s %nRuntime: %7$s %nRegistratiemethode: %8$s Gebruikersnaam: %9$s %nOnderwerp: %10$s %nTijd: %11$s nFout: %12$s %n     </string>
+    <string name="contact_support_email_body_error_section">\nFout: </string>
+    <string name="contact_support_website">https://anonyome.com/contact/</string>
+
+    <!--  Popup Copy menu  -->
+    <string name="popup_copy">Kopie</string>
+    <string name="popup_copied">Gekopieerd</string>
+
+    <!--  Contact Support Shortcut  -->
+    <string name="contact_support_text">Contact opnemen met ondersteuning</string>
+
+    <!--  Browser  -->
+    <string name="browser_page_loading_error">Kan deze pagina niet openen. Controleer de verbinding en probeer het opnieuw.</string>
+
+    <!-- VPN Notification -->
+    <string name="vpn_notification_connected">Verbonden met VPN</string>
+    <string name="vpn_notification_revoked">De toegang van VPN is herroepen</string>
+</resources>
